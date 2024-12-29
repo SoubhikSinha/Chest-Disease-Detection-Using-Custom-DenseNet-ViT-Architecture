@@ -2,8 +2,8 @@
 
 <br>
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/SoubhikSinha/Chest-Disease-Detection-Using-Custom-DenseNet-ViT-Architecture/blob/main/Deploy-Test%20Images/4ceeb362df213ccf2c0b4d6388bba1_gallery.jpg" style="height: 300px; width: auto;">
-  <img src="https://github.com/SoubhikSinha/Chest-Disease-Detection-Using-Custom-DenseNet-ViT-Architecture/blob/main/Deploy-Test%20Images/642x361_SLIDE_4_What_Does_Lung_Cancer_Look_Like.jpg?raw=true" style="height: 300px; width: auto;">
+  <img src="https://github.com/SoubhikSinha/Chest-Disease-Detection-Using-Custom-DenseNet-ViT-Architecture/blob/main/Deploy-Test%20Images/4ceeb362df213ccf2c0b4d6388bba1_gallery.jpg" style="height: 200px; width: auto;">
+  <img src="https://github.com/SoubhikSinha/Chest-Disease-Detection-Using-Custom-DenseNet-ViT-Architecture/blob/main/Deploy-Test%20Images/642x361_SLIDE_4_What_Does_Lung_Cancer_Look_Like.jpg?raw=true" style="height: 200px; width: auto;">
 </div>
 
 
