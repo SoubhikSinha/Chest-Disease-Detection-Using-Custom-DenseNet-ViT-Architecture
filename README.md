@@ -1,4 +1,4 @@
-# Chest Disease Detection Usin Custom DenseNet-ViT (Hybrid) Architecture
+# Chest Disease Detection Using Custom DenseNet-ViT (Hybrid) Architecture
 
 Acknowledgements
 ---
