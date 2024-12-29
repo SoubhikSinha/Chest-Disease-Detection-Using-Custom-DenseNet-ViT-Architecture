@@ -1,5 +1,12 @@
 # Chest Disease Detection Using Custom DenseNet-ViT (Hybrid) Architecture
 
+<br>
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/SoubhikSinha/Chest-Disease-Detection-Using-Custom-DenseNet-ViT-Architecture/blob/main/Deploy-Test%20Images/4ceeb362df213ccf2c0b4d6388bba1_gallery.jpg" style="height: 300px; width: auto;">
+  <img src="https://github.com/SoubhikSinha/Chest-Disease-Detection-Using-Custom-DenseNet-ViT-Architecture/blob/main/Deploy-Test%20Images/642x361_SLIDE_4_What_Does_Lung_Cancer_Look_Like.jpg?raw=true" style="height: 300px; width: auto;">
+</div>
+
+
 Acknowledgements
 ---
 I would like to express my heartfelt gratitude to the creators of the datasets used in this project : `Paul Timothy Mooney` for the *Chest X-Ray Pneumonia Dataset*, `Tawsifur Rahman` for the *Tuberculosis Chest X-Ray Dataset*, and `Mohamed Hanyyy` for the *Chest CT-Scan Images Dataset*, all available on Kaggle. Their invaluable contributions provided the foundation for the development of this project. I also extend my sincere thanks to my peers and mentors for their guidance, support, and feedback, which played a crucial role in the success of this project.
