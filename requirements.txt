@@ -1,0 +1,14 @@
+numpy
+pandas
+tensorflow
+torch
+opencv-python
+scikit-learn
+matplotlib
+seaborn
+pillow
+torchvision
+collection
+tqdm
+ipykernel
+gradio
