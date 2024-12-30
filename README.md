@@ -96,3 +96,59 @@ After the feature maps are pooled, the resulting vector is passed to three diffe
 5.  **Classification heads** output predictions for multiple tasks (pneumonia, tuberculosis, lung cancer).
 
 This architecture efficiently combines the strengths of both DenseNet (feature reuse and deep representations) and Vision Transformers (modeling long-range dependencies), while keeping the model lightweight and computationally feasible for real-time or resource-constrained applications.
+
+<br>
+
+How to run the project ?
+---
+### **1. Clone the Repository**
+Clone the repository to your local machine :<br>
+```bash
+git clone https://github.com/SoubhikSinha/Chest-Disease-Detection-Using-Custom-DenseNet-ViT-Architecture.git
+```
+### **2. Virtual Environment (Creation + Activation)**
+
+Navigate to the repository's root directory and create a Conda virtual environment :<br>
+```bash
+cd Chest-Disease-Detection-Using-Custom-DenseNet-ViT-Architecture
+./create.sh
+```
+<br>
+
+This will :
+
+-   Create a Conda environment (`Chest_Disease`)
+-   Activate the environment
+-   Install the required dependencies listed in `requirements.txt`
+
+**NOTE** : You may execute these commands in your machine's default CLI tool **if it supports scripting language files (.sh)**. If you encounter issues (especially on Windows), you may need to execute the commands using [Git Bash](https://git-scm.com/downloads). Ensure that you are running Git Bash from the **root directory** of the cloned repository.
+<br>
+If the `.sh` script execution isn't working in your default CLI, try the following steps in **Git Bash** :
+
+1.  Install Git Bash from the link above.
+2.  Open Git Bash and navigate to the repository directory.
+3.  Execute the commands in the terminal within Git Bash.
+
+Alternatively, if you don't want to rely on `.sh` scripts, you can manually execute the necessary steps :
+```bash
+conda create --name Chest_Disease python=3.x -y
+conda activate Chest_Disease
+pip install -r requirements.txt
+```
+
+### **3. Running the Project**
+Once your environment is set up, you can run the project and start the Gradio-based web application by executing the following command :<br>
+```bash
+./run.sh
+```
+<br>
+
+
+Alternatively, you can run the commands manually by executing :
+```bash
+conda activate Chest_Disease
+python final_project_Gradio_App.py
+```
+
+### **4. Accessing the Gradio Web Application**
+Once the application starts, it will provide a link to the Gradio interface (usually something like `http://localhost:7860/`). Open this URL in your browser to interact with the web application.
