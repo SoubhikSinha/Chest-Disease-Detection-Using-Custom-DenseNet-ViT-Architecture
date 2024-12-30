@@ -50,7 +50,7 @@ Image Preprocessing Techniques
 
 DenseNet-ViT Hybrid Architecture
 ---
-The `LightweightHybridDenseNetViT` architecture combines a [DenseNet](https://arxiv.org/abs/1608.06993) backbone with a simplified [Vision Transformer (ViT)](https://arxiv.org/abs/2010.11929) module for tasks like pneumonia, tuberculosis, and lung cancer classification. Below is a detailed breakdown of each component of the architecture:
+The `LightweightHybridDenseNetViT` architecture combines a [DenseNet](https://arxiv.org/abs/1608.06993) backbone with a simplified [Vision Transformer (ViT)](https://arxiv.org/abs/2010.11929) module for tasks like pneumonia, tuberculosis, and lung cancer classification. Below is a detailed breakdown of each component of the architecture :
 
 ### 1. **DenseNet Backbone (`self.densenet`)** :
 
