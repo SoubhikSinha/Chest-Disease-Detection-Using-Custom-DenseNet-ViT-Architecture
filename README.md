@@ -151,4 +151,4 @@ python final_project_Gradio_App.py
 ```
 
 ### **4. Accessing the Gradio Web Application**
-Once the application starts, it will provide a link to the Gradio interface (usually something like `http://localhost:7860/`). Open this URL in your browser to interact with the web application.
+Once the application starts, it will provide a link to the Gradio interface (usually something like `http://x.x.x.x:7860/`). Open this URL in your browser to interact with the web application.
