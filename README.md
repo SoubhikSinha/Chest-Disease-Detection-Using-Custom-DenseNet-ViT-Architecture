@@ -152,3 +152,9 @@ python final_project_Gradio_App.py
 
 ### **4. Accessing the Gradio Web Application**
 Once the application starts, it will provide a link to the Gradio interface (usually something like `http://x.x.x.x:7860/`). Open this URL in your browser to interact with the web application.
+
+<br>
+
+### 🌐 **Live Demo on Hugging Face Spaces**
+Explore the live demo of the Chest Disease Detection application on Hugging Face Spaces ! Click the link below to interact with the Gradio-based web application :<br>
+👉 **[Chest Disease Detection on Hugging Face Spaces](https://huggingface.co/spaces/AlooBonda/ChestDiseaseDetection)**
