@@ -25,3 +25,23 @@ Datasets
  - [Chest X-Ray Images for Pneumonia](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) ▶️ Consists of 5,856 images, with 3,878 labeled as `infected` and 1,349 labeled as `normal`.
  - [Chest X-Ray Images for Tuberculosis](https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset) ▶️ Contains 4,200 images, of which 700 are labeled as `infected` and 3,500 as `normal`.
 - [Chest CT-Scan Images](https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images) ▶️ Comprises 1,000 CT-scan images, focusing on the classification of lung cancer types, specifically *[Adenocarcinoma](https://my.clevelandclinic.org/health/diseases/21652-adenocarcinoma-cancers), [Large Cell Carcinoma (LCC)](https://lcfamerica.org/about-lung-cancer/diagnosis/types/large-cell-carcinomas/), and [Squamous Cell Carcinoma (SCC)](https://www.skincancer.org/skin-cancer-information/squamous-cell-carcinoma/)*. 
+
+<br>
+
+Image Preprocessing Techniques
+---
+1.  **Histogram Equalization** ▶️ A technique that enhances the contrast of an image by redistributing its pixel intensity values, making the histogram more uniform.
+    
+2.  **CLAHE (Contrast Limited Adaptive Histogram Equalization)** : A variant of histogram equalization that operates locally on small regions (tiles) of the image to prevent over-amplification of noise in homogeneous areas.
+    
+3.  **Gaussian Blur** ▶️ A smoothing technique used to reduce noise and detail in an image by applying a Gaussian filter, which averages pixel values based on their distance from the center.
+    
+4.  **Resizing with Anti-Aliasing** ▶️ A process of changing an image's dimensions while using anti-aliasing techniques to smooth the image and reduce visual distortion or pixelation.
+    
+5.  **Edge Enhancement (Sharpening)** ▶️ A technique used to enhance the edges of objects in an image by amplifying high-frequency components, making them more distinct.
+    
+6.  **Intensity Normalization** ▶️ A method of adjusting the pixel values of an image to a specific range, typically [0, 1] or [0, 255], to standardize the image intensity for further processing.
+    
+7.  **Tensor Conversion and Normalization to [-1, 1] Range** ▶️ The process of converting image data into a tensor format and normalizing pixel values to a range of [-1, 1] for neural network compatibility and improved model performance.
+    
+8.  **Brightness and Contrast** ▶️ Techniques that adjust the overall brightness (lightness) and contrast (difference between light and dark areas) of an image to enhance visual clarity or correct lighting conditions.
